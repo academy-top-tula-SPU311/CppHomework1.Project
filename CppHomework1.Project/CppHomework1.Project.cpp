@@ -71,6 +71,7 @@ int main()
     //b = ++a;
     //std::cout << b << "\n";
 
+    /*
     int begin{ 8 };
     int end{ 20 };
 
@@ -94,4 +95,21 @@ int main()
         && (time < beginLunch || time >= endLunch);
 
     std::cout << std::boolalpha << isEnter << "\n";
+    */
+
+
+    int a{ 10 };
+    int b{ 20 };
+
+    std::cout << a << " " << b << "\n";
+
+    {
+        int c{ 30 };
+        int a{ 50 };
+
+        std::cout << a << " " << b << " " << c << "\n";
+    }
+    
+
+    std::cout << a << " " << b << " " << c << "\n";
 }
